@@ -671,8 +671,17 @@ h2 {
 
   .hero-rail { right: calc(var(--wide-content-inset) + 24px); top: 332px; }
   .content-section { padding: 58px var(--wide-content-inset); }
+  .about-grid { grid-template-columns: 1fr 1fr; }
+  .about-copy { padding-right: 36px; }
+  .principle-list { justify-self: center; }
   .tyria-section { height: 392px; }
-  .contact-section { min-height: 328px; padding: 50px var(--wide-content-inset); }
+  .tyria-copy { width: 50%; padding-right: 36px; }
+  .operating-model { right: var(--wide-content-inset); width: 50%; }
+  .contact-section {
+    min-height: 328px;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px var(--wide-content-inset);
+  }
   .contact-signoff img { width: min(100%, 350px); }
 }
 
