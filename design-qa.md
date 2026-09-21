@@ -67,6 +67,9 @@ Implemented fix:
 - Removed the faint, low-value text navigation. The header now begins as a clear signature and primary contact action, then fades away on scroll rather than turning into an oversized centered logo pill that competes with the page content.
 - Moved the concise Name, Email, optional Phone, and Message form into an accessible “Let’s talk” dialog. Both header and Contact calls to action open the same dialog; Escape, the close control, and clicking the backdrop dismiss it. Its client-side submit flow opens a pre-addressed email to `hello@bkwick.com` with the completed details, without collecting or persisting visitor data on the prototype itself.
 - Expanded the desktop frame from a narrow 1120px cap to a fluid layout capped at 1720px, with larger-screen spacing, typography, portrait, and section proportions tuned at 1440px and above. A 1920 × 1080 browser check confirms the composition uses the display confidently without stretching into an ultrawide distortion.
+- Centered the wide-screen composition inside a 1420px visual-content area while preserving the larger atmospheric frame; a 1920 × 1080 check confirms the hero and subsequent content no longer feel stranded at the edges.
+- Reworked the hero’s responsive breakpoints: 621–820px keeps the copy and right-hand portrait in a deliberate two-column composition, while 430px uses full-width copy followed by a right-anchored portrait. Geometry checks confirm no horizontal overflow at 430px and a clear copy/portrait split at 768px.
+- Removed the Contact button’s default browser border/highlight; keyboard focus remains available through `:focus-visible` only.
 
 ## Result
 
