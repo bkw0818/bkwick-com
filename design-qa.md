@@ -66,6 +66,7 @@ Implemented fix:
 - Moved the Tyria handwritten “Clarity → Coordination → Progress” note above the section-settling gradient, preserving its full contrast while the Operating Model card continues to dissolve into the Contact handoff beneath it.
 - Removed the faint, low-value text navigation. The header now begins as a clear signature and primary contact action, then fades away on scroll rather than turning into an oversized centered logo pill that competes with the page content.
 - Moved the concise Name, Email, optional Phone, and Message form into an accessible “Let’s talk” dialog. Both header and Contact calls to action open the same dialog; Escape, the close control, and clicking the backdrop dismiss it. Its client-side submit flow opens a pre-addressed email to `hello@bkwick.com` with the completed details, without collecting or persisting visitor data on the prototype itself.
+- Expanded the desktop frame from a narrow 1120px cap to a fluid layout capped at 1720px, with larger-screen spacing, typography, portrait, and section proportions tuned at 1440px and above. A 1920 × 1080 browser check confirms the composition uses the display confidently without stretching into an ultrawide distortion.
 
 ## Result
 
