@@ -10,6 +10,8 @@ The desktop composition should expand confidently on larger screens. Keep a gene
 
 On wide screens, center each two-part section's visual weight within the inner content area. Use balanced columns so the About principle list, Tyria operating-model card, and Contact signature do not drift toward the outer page edges.
 
-For responsive hero behavior, keep the headshot on the right through small-tablet widths. On narrow phones, let the copy use the full readable width and place a smaller headshot directly beneath it, anchored to the right rather than expanding it edge-to-edge.
+For responsive hero behavior, keep the headshot on the right through small-tablet and narrow-phone widths; it should sit alongside the concise hero message rather than stacking below it.
+
+For the current mobile composition, keep the portrait visually alongside the hero message instead of stacking it below. Present the handwritten Ideas-to-Progress note as a balanced two-row, three-arrow annotation beneath the heading, with the hero principle centered at the section base.
 
 Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts/prepare-sites-build.mjs`, and `tests/sites-worker.test.mjs` intact so the same local prototype can be handed to Sites. Before a Sites handoff, run `npm run build` and `npm run test:sites`; the build must leave `dist/client/index.html`, `dist/server/index.js`, and `dist/.openai/hosting.json`.

@@ -71,6 +71,7 @@ Implemented fix:
 - Reworked the hero’s responsive breakpoints: 621–820px keeps the copy and right-hand portrait in a deliberate two-column composition, while 430px uses full-width copy followed by a right-anchored portrait. Geometry checks confirm no horizontal overflow at 430px and a clear copy/portrait split at 768px.
 - Removed the Contact button’s default browser border/highlight; keyboard focus remains available through `:focus-visible` only.
 - Balanced the wide-screen About, Tyria, and Contact compositions into equal inner columns. The principle list, live Operating Model card, and signature now align to the centered content area rather than the outer frame edges; a 1920 × 1080 check confirms the sections retain a stable visual center.
+- Rebuilt the narrow-phone hero into a deliberate side-by-side composition: concise three-line headline and portrait share the upper hero, the handwritten Ideas-to-Progress note uses two balanced rows with three arrows, and the supporting principle centers at the base.
 
 ## Result
 
